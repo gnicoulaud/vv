@@ -5,6 +5,10 @@ html {
 	font-color: red;
 }
 
+.warn {
+	color: #ff7f85;
+}
+
 body {
 	/* whatever you want */
 }
