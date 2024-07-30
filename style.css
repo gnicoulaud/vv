@@ -18,27 +18,18 @@
 
 html {
 	font-family: var(--main-font);
-	font-size: 16px;
+	font-size: 14px;
+	max-width: 720px;
+	margin-left: 200px;
+	margin-top: 100px
 }
 
 body {
-    width: 720px;
-    margin-left: 200px;
-	margin-right: 200px;
-	margin-top: 100px
+    /* nothing */
 }
 
 p, ol, ul {
 	line-height:1.5em;
-}
-
-.grey {
-	font-size:.9em;
-	color: var(--dark-grey);
-}
-	
-.warn {
-	color: var(--pink);
 }
 
 .note {
@@ -56,20 +47,20 @@ li::marker {
 
 h1 {
 	font-family: var(--title-font);
-	font-size: 32px;
+	font-size: 3em;
 	padding-bottom: 20px;
 }
 
 h2 {
 	font-family: var(--title-font);
-	font-size: 20px;
+	font-size: 2em;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
 h3 {
 	font-family: var(--title-font);
-	font-size: 16px;
+	font-size: 1em;
 }
 
 /* tables */
