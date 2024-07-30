@@ -182,3 +182,7 @@ dfn {
 	text-decoration-style: dotted;
 	border-bottom: 1px dotted;
 }
+
+mark {
+	background: var(--pink)!important
+}
