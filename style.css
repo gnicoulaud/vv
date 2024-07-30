@@ -1,11 +1,100 @@
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+
+#FakeElement {color:red;}
+
+:root {
+	--light-grey: #eeeeee;
+	--dark-grey: #555555;
+	--pink: #ff7f85;
+	--main-font: 'Playfair Display', serif;
+	--title-font: 'Poppins', sans-serif;
+	--code-font: 'Inconsolata', monospace;
+}
+
 html {
-	margin: 0 auto;
-	max-width: 720px;
-	font-size: 14px;
+	font-family: var(--main-font);
+	font-size: 16px;
 }
 
 body {
-	/* whatever you want */
+    width: 720px;
+    margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 100px
+}
+
+p, ol, ul {
+	line-height:1.5em;
+}
+
+.grey {
+	font-size:.9em;
+	color: var(--dark-grey);
+}
+	
+.warn {
+	color: var(--pink);
+}
+
+.note {
+	font-size: .8em;
+	vertical-align: top;
+	position: relative;
+	top: -0.5em;
+}
+
+li::marker {
+	color: var(--dark-grey);
+}
+
+/* titles */
+
+h1 {
+	font-family: var(--title-font);
+	font-size: 32px;
+	padding-bottom: 20px;
+}
+
+h2 {
+	font-family: var(--title-font);
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+h3 {
+	font-family: var(--title-font);
+	font-size: 16px;
+}
+
+/* tables */
+
+table {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+}
+
+th, td {
+	text-align: center;
+}
+
+th {
+	border-bottom: 1px solid;
+}
+
+caption {
+	font-size: .9em;
+	color: var(--dark-grey);
+	font-style: italic;
+	padding: 10px;
+	text-align: center;
 }
 
 /* quote */
@@ -24,7 +113,7 @@ blockquote {
 
 blockquote p {
 	padding: 15px;
-	background: #eeeeee;
+	background: var(--light-grey);
 	border-radius: 5px;
 }
 
@@ -45,4 +134,55 @@ blockquote footer {
 blockquote footer:before {
 	content: '\2014\00A0';
 }
+
+/* code */
+
+pre {
+	font-family: var(--code-font);
+	background-color: var(--light-grey);
+	padding: 15px;
+	border-radius: 5px;
+}
+
+code {
+	font-family: var(--code-font);
+}
+
+/* figures */
+
+figure {
+	max-width: 720px;
+	height: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left:0;
+	margin-right:0;
+	padding: 0;
+}
+
+img {
+	max-width: 720px;
+	height: auto;
+	padding: 0;
+	margin: 0;
+}
+
+figcaption {
+	font-size: .9em;
+	color: var(--dark-grey);
+	font-style: italic;
+	padding-top: 10px;
+	text-align: center;
+}
+
+/*notes*/
+
+.notes {
+	font-size: .9em;
+	margin-top: 50px;
+	background-color: var(--light-grey);
+	padding: 15px;
+	border-radius: 5px;
+}
+
 
