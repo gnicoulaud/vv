@@ -176,4 +176,9 @@ figcaption {
 	border-radius: 5px;
 }
 
+/**/
 
+dfn {
+	text-decoration: none;
+	border-bottom: dotted 1px var(--dark-grey);
+}
