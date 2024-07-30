@@ -186,3 +186,11 @@ dfn {
 mark {
 	background: var(--pink)!important
 }
+
+/* test encart */
+
+hgroup {
+	background-color: var(--pink);
+	padding: 15px;
+	border-radius: 5px;
+}
