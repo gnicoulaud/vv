@@ -1,9 +1,3 @@
-:root {
-	--light-grey: #eeeeee;
-	--dark-grey: #555555;
-	--pink: #ff7f85;
-}
-
 html {
 	margin: 0 auto;
 	max-width: 720px;
@@ -30,7 +24,7 @@ blockquote {
 
 blockquote p {
 	padding: 15px;
-	background: var(--light-grey);
+	background: #eeeeee;
 	border-radius: 5px;
 }
 
