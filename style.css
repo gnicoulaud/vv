@@ -108,14 +108,6 @@ blockquote p {
 	border-radius: 5px;
 }
 
-blockquote p::before {
-	content: '\00AB\00A0';
-}
-
-blockquote p::after {
-	content: '\00A0\00BB';
-}
-
 blockquote footer {
 	margin-top: -10px;
 	padding-left: 15px;
